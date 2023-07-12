@@ -56,13 +56,13 @@ async def start(b, m):
                     disable_web_page_preview=True)
                 return
         await m.reply_photo(
-            photo="https://graph.org/file/0cbd309fcde24da85252c.jpg",
+            photo="https://graph.org/file/56838f0229a79eab19a99.jpg",
             caption="**ʜᴇʟʟᴏ...⚡\n\nɪᴀᴍ ᴀ sɪᴍᴘʟᴇ ᴛᴇʟᴇɢʀᴀᴍ ғɪʟᴇ/ᴠɪᴅᴇᴏ ᴛᴏ ᴘᴇʀᴍᴀɴᴇɴᴛ ʟɪɴᴋ ᴀɴᴅ sᴛʀᴇᴀᴍ ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ.**\n\n**ᴜsᴇ /help ғᴏʀ ᴍᴏʀᴇ ᴅᴇᴛsɪʟs\n\nsᴇɴᴅ ᴍᴇ ᴀɴʏ ᴠɪᴅᴇᴏ / ғɪʟᴇ ᴛᴏ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀᴢ...**",
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton("⚡ 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 ⚡", url="https://t.me/Sunrises_Bot_discussion_Group"), InlineKeyboardButton("⚡ 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 ⚡", url="https://t.me/Sunrises_Bot_discussion_Group")],
-                    [InlineKeyboardButton("📺 MAIN CHANNEL 📺", url="https://t.me/sunriseseditsoffical6"), InlineKeyboardButton("💎 𝙾𝚃𝚃 𝙼𝙾𝚅𝙸𝙴𝚂 💎", url="https://t.me/sunriseseditsoffical6")],
-                    [InlineKeyboardButton("🎞️ 𝙼𝙾𝚅𝙸𝙴 𝙱𝙾𝚃 🎞️", url="https://t.me/TG_Sunrises24_Files_Bot")]
+                    [InlineKeyboardButton("⚡ 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 ⚡", url="https://t.me/PanindiaFilmZ"), InlineKeyboardButton("⚡ 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 ⚡", url="https://t.me/PanindiaFilmZ")],
+                    [InlineKeyboardButton("📺 MAIN CHANNEL 📺", url="https://t.me/PanindiaFilmZ"), InlineKeyhttps://t.me/DhabushButton("💎 𝙾𝚃𝚃 𝙼𝙾𝚅𝙸𝙴𝚂 💎", url="https://t.me/PanindiaFilmZ")],
+                    [InlineKeyboardButton("🎞️ 𝙼𝙾𝚅𝙸𝙴 𝙱𝙾𝚃 🎞️", url="https://t.me/PanindiaFilmZ")]
                 ]
             ),
             
@@ -123,9 +123,9 @@ async def start(b, m):
                                      Var.PORT,
                                      get_msg.id)
 
-        msg_text = "**ᴛᴏᴜʀ ʟɪɴᴋ ɪs ɢᴇɴᴇʀᴀᴛᴇᴅ...⚡\n\n📧 ғɪʟᴇ ɴᴀᴍᴇ :-\n{}\n {}\n\n💌 ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ :- {}\n\n♻️ ᴛʜɪs ʟɪɴᴋ ɪs ᴘᴇʀᴍᴀɴᴇɴᴛ ᴀɴᴅ ᴡᴏɴ'ᴛ ɢᴇᴛ ᴇxᴘɪʀᴇᴅ ♻️\n\@sunriseseditsoffical6**"
+        msg_text = "**ᴛᴏᴜʀ ʟɪɴᴋ ɪs ɢᴇɴᴇʀᴀᴛᴇᴅ...⚡\n\n📧 ғɪʟᴇ ɴᴀᴍᴇ :-\n{}\n {}\n\n💌 ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ :- {}\n\n♻️ ᴛʜɪs ʟɪɴᴋ ɪs ᴘᴇʀᴍᴀɴᴇɴᴛ ᴀɴᴅ ᴡᴏɴ'ᴛ ɢᴇᴛ ᴇxᴘɪʀᴇᴅ ♻️\n\@Chepumawa**"
         await m.reply_photo(
-            photo="https://graph.org/file/0cbd309fcde24da85252c.jpg",
+            photo="https://graph.org/file/56838f0229a79eab19a99.jpg",
             caption=msg_text.format(file_name, file_size, stream_link),
             
             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("⚡ ᴅᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ ⚡", url=stream_link)]])
@@ -178,9 +178,9 @@ async def help_handler(bot, message):
         
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("⚡ 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 ⚡", url="https://t.me/Sunrises_Bot_discussion_Group"), InlineKeyboardButton("⚡ 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 ⚡", url="https://t.me/Sunrises_Bot_discussion_Group")],
-                [InlineKeyboardButton("📺 MAIN CHANNEL 📺", url="https://t.me/sunriseseditsoffical6"), InlineKeyboardButton("💎𝙾𝚃𝚃 𝙼𝙾𝚅𝙸𝙴𝚂💎", url="https://t.me/sunriseseditsoffical6")],
-                [InlineKeyboardButton("🎞️ 𝙼𝙾𝚅𝙸𝙴 𝙱𝙾𝚃 🎞️", url="https://t.me/TG_Sunrises24_Files_Bot")]
+                [InlineKeyboardButton("⚡ 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 ⚡", url="https://t.me/PanindiaFilmZ"), InlineKeyboardButton("⚡ 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 ⚡", url="https://t.me/PanindiaFilmZ")],
+                [InlineKeyboardButton("📺 MAIN CHANNEL 📺", url="https://t.me/PanindiaFilmZ"), InlineKeyboardButton("💎𝙾𝚃𝚃 𝙼𝙾𝚅𝙸𝙴𝚂💎", url="https://t.me/PanindiaFilmZ")],
+                [InlineKeyboardButton("🎞️ 𝙼𝙾𝚅𝙸𝙴 𝙱𝙾𝚃 🎞️", url="https://t.me/PanindiaFilmZ")]
             ]
         )
     )
@@ -230,22 +230,22 @@ async def about_handler(bot, message):
 
 <b>╭━━━━━━━〔ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ〕</b>
 ┃
-┣⪼<b>ʙᴏᴛ ɴᴀᴍᴇ : <a href='http://t.me/FileToLink24Bot'>FILE TO LINK BOT</a></b>
-┣⪼<b>ᴜᴘᴅᴀᴛᴇS : <a href='https://t.me/Sunrises_Bot_discussion_Group'>𝗨𝗣𝗗𝗔𝗧𝗘𝗦</a></b>
-┣⪼<b>MAIN CHANNEL : <a href='https://t.me/sunriseseditsoffical6'>SUNRISESEDITSOFFICAL6</a></b>
+┣⪼<b>ʙᴏᴛ ɴᴀᴍᴇ : <a href='http://t.me/ClawLinkBot'>CLAW LINK BOT</a></b>
+┣⪼<b>ᴜᴘᴅᴀᴛᴇS : <a href='https://t.me/PanindiaFilmZ'>𝗨𝗣𝗗𝗔𝗧𝗘𝗦</a></b>
+┣⪼<b>MAIN CHANNEL : <a href='https://t.me/PanindiaFilmZ'>PANINDIAFILMZ</a></b>
 ┣⪼<b>sᴇʀᴠᴇʀ : RENDER</b>
 ┣⪼<b>ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ</b>
 ┣⪼<b>ʟᴀɴɢᴜᴀɢᴇ: ᴘʏᴛʜᴏɴ 3</b>
 
-┣⪼<b>𝙼𝚘𝚟𝚒𝚎-𝙶𝚛𝚘𝚞𝚙 : <a href='https://t.me/+cTcRFLXWUsI0ZjA1'>𝙼𝚘𝚟𝚒𝚎𝚜Group</a></b>
+┣⪼<b>𝙼𝚘𝚟𝚒𝚎-𝙶𝚛𝚘𝚞𝚙 : <a href='https://t.me/PanindiaFilmZ'>𝙼𝚘𝚟𝚒𝚎𝚜Group</a></b>
 ┃
 <b>╰━━━━━━━〔ᴘʟᴇᴀsʀ sᴜᴘᴘᴏʀᴛ〕</b>""",
   
         
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("⚡ 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 ⚡", url="https://t.me/Sunrises_Bot_discussion_Group"), InlineKeyboardButton("📺 MAIN CHANNEL 📺", url="https://t.me/sunriseseditsoffical6")],
-                [InlineKeyboardButton("🎞️ 𝙼𝙾𝚅𝙸𝙴𝙱𝙾𝚃 🎞️", url="https://t.me/TG_Sunrises24_Files_Bot")]
+                [InlineKeyboardButton("⚡ 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 ⚡", url="https://t.me/PanindiaFilmZ"), InlineKeyboardButton("📺 MAIN CHANNEL 📺", url="https://t.me/PanindiaFilmZ")],
+                [InlineKeyboardButton("🎞️ 𝙼𝙾𝚅𝙸𝙴𝙱𝙾𝚃 🎞️", url="https://t.me/PanindiaFilmZ")]
             ]
         )
     )
